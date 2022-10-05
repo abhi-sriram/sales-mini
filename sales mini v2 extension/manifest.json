@@ -1,0 +1,17 @@
+{
+    "name": "Sales Mini V2",
+    "version": "2.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Sales Mini V2"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["Content.js"]
+        }
+    ]
+}
